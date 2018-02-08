@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body ng-app>
+    <h3>Hello NodeJS</h3>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+    </ul>
+
+    First Name: <input type="text" ng-model="fname" /><br />
+    Last Name: <input type="text" ng-model="lname" /><br />
+    Result: {{fname+' '+lname}}
+
+    <script src="/javascripts/jquery.min.js"></script>
+    <script src="/javascripts/angular.min.js"></script>
+</body>
+</html>
